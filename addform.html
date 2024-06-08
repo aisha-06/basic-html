@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+ <head>
+    <title> Addmission form for motor training</title>
+ </head>
     <center>
         <h1>
           
@@ -31,13 +34,46 @@
     <label for="pass"> PASSWORD :</label>
     <input type="password" id="pass" name="pass" value="" placeholder="ENTER PASSWORD"  required>
     <br><br>
+    <label for="license">LICENSE NO :</label>
+    <input type="number" id="license" name="license" value="" placeholder="ENTER LICENSE NO">
+     <br><br>
+
     <label for="gennder"> GENDER :</label>
     <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male:</label>
-    
+    <label for="male">Male</label>
     <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br> <br>
+    <label for="wheeler"> SELECT: </label>
+    <br>
+    <input type="checkbox">
+    <label for="2 wheelers">TWO WHEEELER</label>
+    <br>
+    <input type="checkbox" id="wheeler " name="wheeler">
+    <label for="4 wheeler">FOUR WHEEELER </label>
+    <br> <br>
+    <label for="time">TIME SLOTS : </label>
+    <select name="timing" id="timing">
+        <option value="9-10 am">9-10 AM</option>
+        <option value="10-11 am">10-11 AM</option>
+        <option value="11-12 pm">11-12 PM</option>
+        <option value="3-4 pm">3-4 PM</option>
+        <option value="4-5 pm">4-5 PM</option>
+    </select>
+    <br><br>
+    <h4> FOR PAYING FEES ONLINE SCAN THE BELOW QR-CODE</h4>
+    <img src="https://1.bp.blogspot.com/-dHN4KiD3dsU/XRxU5JRV7DI/AAAAAAAAAz4/u1ynpCMIuKwZMA642dHEoXFVKuHQbJvwgCEwYBhgL/s1600/qr-code.png" alt="fees qr code" 
+    width="200" height="200">
+    <h5>ACE MOTOR TRAINING CENTER</h5>
+   <br>
+    <label for="mfile">UPLOAD THE SCREENSHOT OF PAYMENT </label> <br>
+    <input type="file" id="mfile" name="mfile">
+    <br> <br>
+    <label for="query">ANY QUESTION KINDLY WRITE IN THE BELOW TEXTAREA:</label> <br>
+    <textarea name="query" id="query" rows="5" cols="50" > </textarea>
+    <br> <br>
+    <button type="button"> SUBMIT </button>
 
-    <label for="female">Female:</label>
     
     
    
